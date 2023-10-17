@@ -1,0 +1,55 @@
+ul li {
+    margin: 10px 0px 10px 0px;
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-left: 30px;
+}
+
+ul li svg {
+    color: aqua;
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    width: 17px;
+    height: 17px;
+    fill: currentcolor;
+    margin-left: 3px;
+}
+
+.label {
+    min-width: 85px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 300px;
+}
+
+.img-left {
+    width: 30%;
+    float: left;
+    height: auto;
+    padding-left: 50px;
+}
+
+.content-right {
+    width: 65%;
+    height: auto;
+    padding-left: 70px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    width: fit-content;
+}

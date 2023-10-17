@@ -1,0 +1,18 @@
+input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-color: #fff;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .2);
+    height: 120px;
+    resize: none;
+    background-color: #fff;
+}
