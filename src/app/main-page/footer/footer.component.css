@@ -1,0 +1,23 @@
+@media screen and (max-width: 640px) {
+    .container {
+        position: relative;
+        top: 100%;
+        left: 0%;
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+
+    .content {
+        margin: 0;
+        width: 100%;
+    }
+
+    .foot {
+        width: 50%;
+        margin-left: 10%;
+    }
+}

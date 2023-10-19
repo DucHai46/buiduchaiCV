@@ -53,3 +53,36 @@ ul li svg {
     float: left;
     width: fit-content;
 }
+
+
+@media screen and (max-width: 640px) {
+
+    .content {
+        display: block;
+    }
+
+    .img-left {
+        width: 100%;
+        padding-left: 6%;
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .content-right {
+        width: 70%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .title {
+        margin-left: 2%;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+
+    ul li {
+        width: 100%;
+    }
+}

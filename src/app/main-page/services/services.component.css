@@ -33,3 +33,26 @@ ul li .content {
 ul li .content:hover {
     box-shadow: 0px 0px 20px rgba(0, 59, 253, 0.09);
 }
+
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: block;
+        position: relative;
+        top: 30%;
+        left: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .title {
+        width: fit-content;
+        margin-left: 2%;
+    }
+
+    ul li {
+        display: block;
+        width: 80%;
+        margin: 10px;
+    }
+}

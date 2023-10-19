@@ -16,3 +16,25 @@ textarea {
     resize: none;
     background-color: #fff;
 }
+
+@media screen and (max-width: 640px) {
+    .container {
+        position: relative;
+        top: 50%;
+        left: 0%;
+        margin-left: 2%;
+        padding-left: 0;
+    }
+
+    .note {
+        padding-left: 5%;
+    }
+
+    .form {
+        padding-left: 5%;
+    }
+
+    .form button {
+        margin-top: 0;
+    }
+}

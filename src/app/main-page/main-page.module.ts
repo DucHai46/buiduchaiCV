@@ -6,7 +6,8 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button'
+import { MatButtonModule } from '@angular/material/button';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MatButtonModule } from '@angular/material/button'
     HeaderComponent,
     AboutComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   exports: [
     HomeComponent,
@@ -23,7 +25,8 @@ import { MatButtonModule } from '@angular/material/button'
     ServicesComponent,
     ContactComponent,
     MatIconModule,
-    MatButtonModule
+    FooterComponent,
+    MatButtonModule,
   ],
   imports: [
     CommonModule,
