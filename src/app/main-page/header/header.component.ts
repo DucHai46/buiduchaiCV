@@ -9,6 +9,12 @@ export class HeaderComponent {
   mobileNav: boolean = true;
 
   ngOnInit() {
+    if (window.screen.width < 640) { // 768px portrait
+      this.mobileNav = false;
+    }
+    else {
+      this.mobileNav = true;
+    }
   }
 
   mobile() {
