@@ -6,6 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  mobileNav: boolean = true;
 
+  ngOnInit() {
+  }
 
+  mobile() {
+    this.mobileNav = true;
+  }
+
+  hiddenmobile() {
+    if (window.screen.width < 640) { // 768px portrait
+      this.mobileNav = false;
+    }
+    else {
+      this.mobileNav = true;
+    }
+  }
 }
