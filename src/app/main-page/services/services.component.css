@@ -54,6 +54,9 @@ ul li .content:hover {
         display: block;
         width: 100%;
         margin: 10px;
-        margin-left: 30px;
+    }
+
+    ul li .content {
+        width: 80%;
     }
 }

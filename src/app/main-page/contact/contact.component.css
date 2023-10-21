@@ -28,10 +28,12 @@ textarea {
 
     .note {
         padding-left: 5%;
+        width: 350px;
     }
 
     .form {
         padding-left: 5%;
+        width: 350px;
     }
 
     .form button {
