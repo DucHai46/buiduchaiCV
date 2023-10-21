@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  scrollToElement($element: any): void {
+    console.log($element);
+    $element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  }
+
   mobileNav: boolean = true;
 
   ngOnInit() {
