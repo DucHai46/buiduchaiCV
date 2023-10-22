@@ -4,12 +4,13 @@ html {
 }
 
 @media screen and (max-width: 640px) {
-    html {
-        height: 30%;
+    /* html {
+        height: 50%;
         width: auto;
-    }
+    } */
 
     body {
+        padding-top: 60%;
         height: fit-content;
         position: relative;
         top: 100%;
