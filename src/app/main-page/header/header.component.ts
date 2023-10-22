@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  scrollToElement($element: any): void {
-    console.log($element);
-    $element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+
+  onWindowScroll($event: Event) {
+
+    this.onNav = true;
   }
+  onNav: boolean = false;
 
   mobileNav: boolean = true;
 
@@ -33,5 +35,13 @@ export class HeaderComponent {
     else {
       this.mobileNav = true;
     }
+  }
+
+  backhome() {
+    this.onNav = false;
+  }
+
+  nav_item() {
+    this.onNav = true;
   }
 }

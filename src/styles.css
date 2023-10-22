@@ -26,3 +26,13 @@ body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+@font-face {
+    font-family: "Tiltneon";
+    src: url("assets/font/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT,YROT.ttf");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("assets/font/Pacifico/Pacifico-Regular.ttf");
+}
